@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "git@github.com:facephi-clienters/FPBRecognition-SPM.git", .exactItem("6.1.3")),
+        .package(url: "git@github.com:facephi-clienters/FPBRecognition-SPM.git", .exactItem("3.27.2")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -24,7 +24,7 @@ let package = Package(
             dependencies: [
                 "FPBRecognition-SPM", "FPHIRecognitionHelper"]),
 
-         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/6.1.3/FPHIRecognitionHelper.zip",
-            checksum: "cd76f14489ae0d3cf869bc45c31755db60322e7ba4d9b011366472b59aaabc8a") 
+         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/3.27.2/FPHIRecognitionHelper.zip",
+            checksum: "25bae7dabff74e8c974f966bda796a099aac3453d39631eebaa9ac6493d72df7") 
     ]
 )
