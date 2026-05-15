@@ -25,6 +25,6 @@ let package = Package(
                 "FPBRecognition-SPM", "FPHIRecognitionHelper"]),
 
          .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/3.27.2/FPHIRecognitionHelper.zip",
-            checksum: "25bae7dabff74e8c974f966bda796a099aac3453d39631eebaa9ac6493d72df7") 
+            checksum: "e9a471271a7bb88f82dc1ad7950dc26e778d056c27f6f984dadf2bc2c13bffc0") 
     ]
 )
