@@ -1,0 +1,15 @@
+{
+  "originHash" : "93f2293c62bdf0c6f7d78363bb4e7b956fc55cad9cdd7af1e7d588477e318099",
+  "pins" : [
+    {
+      "identity" : "fpbrecognition-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facephi-clienters/FPBRecognition-SPM.git",
+      "state" : {
+        "revision" : "bf0693d81bc3b1e5d7115749d81307ffeb9c1a80",
+        "version" : "3.27.2"
+      }
+    }
+  ],
+  "version" : 3
+}
