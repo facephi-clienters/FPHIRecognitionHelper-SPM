@@ -24,7 +24,7 @@ let package = Package(
             dependencies: [
                 "FPBRecognition-SPM", "FPHIRecognitionHelper"]),
 
-         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/3.27.4/FPHIRecognitionHelper.zip",
-            checksum: "80c436201352a33e2735c02c20870b345a24083855d2e65bcbe16d8b9c5ca90f") 
+         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/3.27.5/FPHIRecognitionHelper.zip",
+            checksum: "f2752a57f945bbd6b865a874caf749d5b0a2f9bcc69621dd1dc5a8c41529cea5") 
     ]
 )
