@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "FPHIRecognitionHelper-SPM",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -24,7 +27,7 @@ let package = Package(
             dependencies: [
                 "FPBRecognition-SPM", "FPHIRecognitionHelper"]),
 
-         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/6.1.6/FPHIRecognitionHelper.zip",
-            checksum: "6d17345fe7a6691ab9601930f2c20f8fac8b3e427d305c3b0b05de9eb2dc0395") 
+         .binaryTarget(name: "FPHIRecognitionHelper", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHIRecognitionHelper/6.1.9/FPHIRecognitionHelper.zip",
+            checksum: "49412c378078b7755a7316692f4acc9dbbe21325f419e4d85f1af888bc4b2587") 
     ]
 )
